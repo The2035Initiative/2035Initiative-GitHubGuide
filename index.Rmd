@@ -1,6 +1,6 @@
 ---
-title: "EDS 123: Optional MEDS Template"
-description: "A minimal website skeleton and theme for MEDS course with distill (by RStudio)"
+title: "2035 Initiative GitHub Guide"
+description: "This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Projects, along with helpful tips for getting started, and troubleshooting."
 site: distill::distill_website
 ---
 

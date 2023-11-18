@@ -88,20 +88,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>The 2035 Initiative: GitHub Guide: Topic 4: Project Collaboration</title>
+  <title>The 2035 Initiative: Topic 4: Project Collaboration</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="The 2035 Initiative: GitHub Guide: Topic 4: Project Collaboration"/>
+  <meta property="og:title" content="The 2035 Initiative: Topic 4: Project Collaboration"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="The 2035 Initiative: GitHub Guide"/>
+  <meta property="og:site_name" content="The 2035 Initiative"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="The 2035 Initiative: GitHub Guide: Topic 4: Project Collaboration"/>
+  <meta property="twitter:title" content="The 2035 Initiative: Topic 4: Project Collaboration"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
@@ -2206,7 +2206,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     /*-- Main font colors --*/
     --title-color:     #003660;
     --title-weight:    400;
-    --header-color:    rgba(4, 124, 145, 1);
+    --header-color:    #003660;
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2247,7 +2247,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       rgba(255, 255, 255, 0.8);
     --text-size:        18px;
     --hover-color:      white;
-    --bkgd-color:       #047C91;
+    --bkgd-color:       #003660;
   }
 
   .distill-site-footer {
@@ -2287,7 +2287,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /* Set colors for headers */
   d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6 {
-      color: rgba(4, 124, 145, 0.8);
+      color: #003660);
   }
 
   /* Formatting tables (can update here or individually) */
@@ -2533,7 +2533,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">The 2035 Initiative: GitHub Guide</a>
+<a href="index.html" class="title">The 2035 Initiative</a>
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
@@ -2579,13 +2579,42 @@ Topics
 <nav class="l-text toc figcaption" id="TOC">
 <h3>Contents</h3>
 <ul>
-<li><a href="#adding-collaborators" id="toc-adding-collaborators">Adding Collaborators</a></li>
+<li><a href="#using-the-github-organization" id="toc-using-the-github-organization">Using the GitHub Organization</a>
+<ul>
+<li><a href="#becoming-a-member" id="toc-becoming-a-member">Becoming a Member</a></li>
+<li><a href="#transferring-your-repository-into-organization" id="toc-transferring-your-repository-into-organization">Transferring Your Repository into Organization</a></li>
+</ul></li>
+<li><a href="#adding-repository-collaborators" id="toc-adding-repository-collaborators">Adding Repository Collaborators</a></li>
 <li><a href="#branches" id="toc-branches">Branches</a></li>
 <li><a href="#merge-request" id="toc-merge-request">Merge Request</a></li>
 </ul>
 </nav>
 </div>
-<h2 id="adding-collaborators">Adding Collaborators</h2>
+<h2 id="using-the-github-organization">Using the GitHub Organization</h2>
+<h3 id="becoming-a-member">Becoming a Member</h3>
+<p>To improve our workflow as a collective, all 2035 Initiative projects should be associated with our <a href="https://github.com/The2035Initiative">GitHub Organization</a>. If you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email to be added.</p>
+<h3 id="transferring-your-repository-into-organization">Transferring Your Repository into Organization</h3>
+<p>We request that you kindly transfer any 2035 Initiative related GitHub projects into our Organization, to optimize our project management and communication. You can transfer any repository you’ve uploaded to the organization using the following steps:</p>
+<ol type="1">
+<li><p>On GitHub.com, navigate to the main page of the repository.</p></li>
+<li><p>Under your repository name, click <strong>Settings</strong>. If you cannot see the “Settings” tab, select the dropdown menu, then click <strong>Settings</strong>.</p></li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="img/danger-zone.jpg" width="398" /></p>
+</div>
+<ol start="3" type="1">
+<li>At the bottom of the page, in the “Danger Zone” section, click <strong>Transfer</strong>.</li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<p><img src="img/transferring-repository.jpg" width="958" /></p>
+</div>
+<ol start="4" type="1">
+<li><p>Read the information about transferring a repository, then, under “New owner”, select our organization from the drop down menu.</p></li>
+<li><p>Read the warnings about potential loss of features depending on the new owner’s GitHub subscription.</p></li>
+<li><p>Following <strong>Type REPOSITORY NAME to confirm</strong>, type the name of the repository you’d like to transfer, then click <strong>I understand, transfer this repository</strong>.</p></li>
+</ol>
+<p>If you published a GitHub Pages site in a private repository and added a custom domain, before transferring the repository, you may want to remove or update your DNS records to avoid the risk of a domain takeover. For more information, see “<a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">Managing a custom domain for your GitHub Pages site</a>.”</p>
+<h2 id="adding-repository-collaborators">Adding Repository Collaborators</h2>
 <p>Oftentimes you’ll find yourself collaborating with a person, or even a team of people on a project. To optimize the project’s workflow, it would be most beneficial to add everyone to the project repository as collaborators.</p>
 <p>** Image of adding collaborators example **</p>
 <h2 id="branches">Branches</h2>
@@ -2611,10 +2640,7 @@ Topics
 <!--radix_placeholder_navigation_after_body-->
 <div class="distill-site-nav distill-site-footer">
 <p>
-<a href="https://bren.ucsb.edu/"><img src="img/bren_white_logo.png" alt="Bren School logo" style="width:350px;" /></a>
-</p>
-<p>
-  This website was made with <u><a href="https://rstudio.github.io/distill/">distill by RStudio</a></u>.
+<a href="https://www.2035initiative.com/"><img src="img/Logo_blue.png" alt="The 2035 Initiative logo" style="width:350px;" /></a>
 </p>
 </div>
 <!--/radix_placeholder_navigation_after_body-->

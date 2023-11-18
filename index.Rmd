@@ -1,5 +1,5 @@
 ---
-title: "The 2035 Initiative GitHub Guide"
+title: "The 2035 Initiative: GitHub Guide"
 description: "This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Initiative projects, along with helpful tips for getting started, and troubleshooting."
 site: distill::distill_website
 ---
@@ -15,14 +15,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-```{r, out.width = "100%", fig.cap = "Update this image by dropping your new image into the img folder of the project, then open the index.Rmd & change the path to point to the new image. Image: Mississippi River south of Memphis, TN, from USGS shared on Unsplash (https://unsplash.com/photos/35Z2ylLRCO8)."}
+```{r, out.width = "100%", fig.cap = "Image: Mississippi River south of Memphis, TN, from USGS shared on Unsplash (https://unsplash.com/photos/35Z2ylLRCO8)."}
 
 # UPDATE IMAGE HERE 
+# Update this image by dropping your new image into the img folder of the project, then open the index.Rmd & change the path to point to the new image. 
 # or copy/paste this code elsewhere, updating the file path, to add other images to your site!
 knitr::include_graphics("img/usgs_sat.jpeg")
 ```
 
-## Welcome to The 2035 GitHub Guide
+## Welcome to The 2035 Initiative GitHub Guide
 
 This website has divvied up it's informational resources across 7 topics:
 
@@ -32,7 +33,7 @@ This website has divvied up it's informational resources across 7 topics:
 
 (3) **File Structure & Data Managemen**t: naming conventions, data formats, organizing files, using .gitignore.
 
-(4) **Project Collaboration**: adding collaborators, branches.
+(4) **Project Collaboration**: joining our GitHub Organization, adding collaborators, branches.
 
 (5) **Reproducible Workflows**: open sourced coding, commenting, formatting.
 
@@ -42,7 +43,7 @@ This website has divvied up it's informational resources across 7 topics:
 
 ## Learning Objectives
 
-To demystify GitHub using a step-by-step overview of the platform and how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.
+Demystify GitHub using a step-by-step overview of the platform on how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.
 
 -   Set a standard for file/data management.
 -   Streamline project collaboration and communication.
@@ -60,7 +61,7 @@ To demystify GitHub using a step-by-step overview of the platform and how to uti
 
 ## Important Links
 
--   Link to 2035 Initiative GItHub Organization, if you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email.
+-   Link to the 2035 Initiative [GitHub Organization](https://github.com/The2035Initiative), if you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email.
 
 ## Tentative Workshop Dates
 

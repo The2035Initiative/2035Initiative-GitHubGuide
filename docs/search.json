@@ -5,92 +5,92 @@
       "title": "Assignments",
       "author": [],
       "contents": "\r\n\r\nContents\r\nAssignment materials and dates\r\nAssignment expectations and grading\r\n\r\n\r\n\r\nTO UPDATE THIS PAGE: Open and edit the assignments.Rmd file, in the project root, to delete this placeholder text and customize with your own!\r\n\r\nAssignment materials and dates\r\nAssignment materials\r\nAssigned\r\nDue date\r\nA link to the repo\r\n2021-01-01\r\n2021-01-08\r\nA link to the repo\r\n2021-01-15\r\n2021-01-23\r\nA link to the repo\r\n2021-02-01\r\n2021-02-09\r\nA link to the repo\r\n2021-02-14\r\n2021-02-23\r\nAssignment expectations and grading\r\nThis might also go on the home page & in syllabus\r\nOr could reinforce here\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:31-08:00"
+      "last_modified": "2023-11-17T19:06:38-08:00"
     },
     {
       "path": "index.html",
-      "title": "The 2035 Initiative GitHub Guide",
+      "title": "The 2035 Initiative: GitHub Guide",
       "description": "This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Initiative projects, along with helpful tips for getting started, and troubleshooting.",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nWelcome to The 2035 GitHub Guide\r\nLearning Objectives\r\nTeaching Team\r\nImportant Links\r\nTentative Workshop Dates\r\n\r\n\r\n\r\n\r\nFigure 1: Update this image by dropping your new image into the img folder of the project, then open the index.Rmd & change the path to point to the new image. Image: Mississippi River south of Memphis, TN, from USGS shared on Unsplash (https://unsplash.com/photos/35Z2ylLRCO8).\r\n\r\n\r\n\r\nWelcome to The 2035 GitHub Guide\r\nThis website has divvied up it’s informational resources across 7 topics:\r\nJoining GitHub: creating an account, personal access tokens (PATs), and connecting with RStudio.\r\nCreating a Repository: step-by-step instructions, explaining README, licensing, and brief overview on .gitignore.\r\nFile Structure & Data Management: naming conventions, data formats, organizing files, using .gitignore.\r\nProject Collaboration: adding collaborators, branches.\r\nReproducible Workflows: open sourced coding, commenting, formatting.\r\nTroubleshooting Tips: merge conflicts, overloading GitHub.\r\nEssential Git Commands: a summary of all of the code covered throughout the topics.\r\nLearning Objectives\r\nTo demystify GitHub using a step-by-step overview of the platform and how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.\r\nSet a standard for file/data management.\r\nStreamline project collaboration and communication.\r\nTroubleshooting skills - understand pathways to resolve issues that arise while using Git.\r\nTeaching Team\r\nJr. Specialist: Emma Franzblau (emmafranzblau@ucsb.edu)\r\nOffice hours: TBA\r\nResearch Assistant: Sofia Ingersoll (singersoll@ucsb.edu)\r\nOffice hours: Friday 9am - 10am\r\nImportant Links\r\nLink to 2035 Initiative GItHub Organization, if you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email.\r\nTentative Workshop Dates\r\nTBA\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:32-08:00"
+      "contents": "\r\n\r\nContents\r\nWelcome to The 2035 Initiative GitHub Guide\r\nLearning Objectives\r\nTeaching Team\r\nImportant Links\r\nTentative Workshop Dates\r\n\r\n\r\n\r\n\r\nFigure 1: Image: Mississippi River south of Memphis, TN, from USGS shared on Unsplash (https://unsplash.com/photos/35Z2ylLRCO8).\r\n\r\n\r\n\r\nWelcome to The 2035 Initiative GitHub Guide\r\nThis website has divvied up it’s informational resources across 7 topics:\r\nJoining GitHub: creating an account, personal access tokens (PATs), and connecting with RStudio.\r\nCreating a Repository: step-by-step instructions, explaining README, licensing, and brief overview on .gitignore.\r\nFile Structure & Data Management: naming conventions, data formats, organizing files, using .gitignore.\r\nProject Collaboration: joining our GitHub Organization, adding collaborators, branches.\r\nReproducible Workflows: open sourced coding, commenting, formatting.\r\nTroubleshooting Tips: merge conflicts, overloading GitHub.\r\nEssential Git Commands: a summary of all of the code covered throughout the topics.\r\nLearning Objectives\r\nDemystify GitHub using a step-by-step overview of the platform on how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.\r\nSet a standard for file/data management.\r\nStreamline project collaboration and communication.\r\nTroubleshooting skills - understand pathways to resolve issues that arise while using Git.\r\nTeaching Team\r\nJr. Specialist: Emma Franzblau (emmafranzblau@ucsb.edu)\r\nOffice hours: TBA\r\nResearch Assistant: Sofia Ingersoll (singersoll@ucsb.edu)\r\nOffice hours: Friday 9am - 10am\r\nImportant Links\r\nLink to the 2035 Initiative GitHub Organization, if you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email.\r\nTentative Workshop Dates\r\nTBA\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-11-17T19:06:39-08:00"
     },
     {
       "path": "resources.html",
       "title": "Addtional Resources",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nCollaboration & Workflow Resources\r\nMore on distill\r\n\r\nCollaboration & Workflow Resources\r\nData and scientific workflow management\r\nMore on distill\r\nRStudio’s distill website\r\nInspiration and examples from the distillery\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:33-08:00"
+      "contents": "\r\n\r\nContents\r\nCollaboration & Workflow Resources\r\nMore on distill\r\n\r\nCollaboration & Workflow Resources\r\nData and scientific workflow management\r\nTransferring a Repository Guide\r\nMore on distill\r\nRStudio’s distill website\r\nInspiration and examples from the distillery\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-11-17T19:06:40-08:00"
     },
     {
       "path": "topic_1.html",
       "title": "Topic 1: Getting Started with GitHub",
       "author": [],
       "contents": "\r\n\r\nContents\r\nCreating an Account\r\nConnecting GitHub to RStudio\r\n\r\nCreating an Account\r\nIf you don’t already have a GitHub account, go to GitHub and create one. Here are helpful considerations for choosing a username: happygitwithr.com/github-acct.html\r\nConnecting GitHub to RStudio\r\nYou should already have git on your device, but let’s check for it anyway.\r\nOpen RStudio\r\nIn the Terminal, run the following command:\r\nwhere git\r\nIf after running that you get something that looks like a file path to git on your computer, then you have git installed. For example, that might return something like this (or it could differ a bit): /usr/local/bin/git. If you instead get no response at all, you should download & install git from here: git-scm.com/downloads\r\nIn RStudio, open the Terminal. Run the following commands (by pressing Enter after each line), replacing the username (keep the quotation marks!) and email with your username and email used for your GitHub account.\r\ngit config --global user.name \"Jane Doe\" git config --global user.email janedoe@example.com\r\nThen, in the Terminal run the following, carefully checking that the name and email returned match your GitHub information:\r\ngit config --list --global\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:34-08:00"
+      "last_modified": "2023-11-17T19:06:41-08:00"
     },
     {
       "path": "topic_10.html",
       "title": "Topic 10: Inserting tables",
       "author": [],
       "contents": "\r\n\r\nContents\r\nUse the Visual Editor\r\nOther options\r\n\r\n\r\nTO UPDATE THIS PAGE: Open and edit the topic_10.Rmd file, in the project root, to delete this placeholder text and customize with your own!\r\n\r\nUse the Visual Editor\r\nIf you want to create a table in your R Markdown from scratch that is easily editable (e.g., a table of Assignment due dates or something), it might be easiest to just make the thing manually right in your R Markdown document.\r\nTo do that, I strongly recommend using the RStudio Visual Editor (in RStudio versions >= 1.4), which has an easy-to-use Table maker similar to what you’d see in Word or Google Docs.\r\nOpen the .Rmd in which you want to add the table\r\nSwitch over to the visual editor by clicking on the compass-looking icon in the top right of your .Rmd screen, to the right of the ‘Run’ and ‘Publish’ buttons (hover text is “Switch to visual markdown editor”)\r\nIn the Visual Editor menu, click on Table, then in the dropdown Menu click ‘Insert Table’…and create & populate your new table like you would normally in non-markdown tools\r\nOther options\r\nThere are a bunch of different ways to add & format tables in R Markdown (see several of many options in David Keyes’ post on Making Beautiful Tables in R). I think most of them are most useful when you’re trying to make a finalized table with data in it, but if you really want to beautify your website tables there are options.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:35-08:00"
+      "last_modified": "2023-11-17T19:06:41-08:00"
     },
     {
       "path": "topic_2.html",
       "title": "Topic 2: Creating a Repository",
       "author": [],
       "contents": "\r\n\r\nContents\r\nCreating a Repository\r\nWhat is a .gitignore file?\r\nWhat do we hide and how?\r\nREADME Files\r\nLicenses\r\n\r\n\r\nCreating a Repository\r\nGitHub is an open sourced user-interface\r\n** image of what it looks like to make a repository **\r\nWhat is a .gitignore file?\r\nDocumentation we do not want to be pushed and made publicly available in GitHub. When making a repository, you are prompted to answer whether or not you would like Git to make one for you automatically.\r\n** Image of selecting .gitignore file example **\r\nWhat do we hide and how?\r\nTypically, data sets that are too large are unable to be stored by GitHub. To avoid a catastrophic event where GitHub is overloaded, it is common practice to put the data folder in the .gitignore file.\r\n** Image of .gitignore file example **\r\nREADME Files\r\nAt the bottom of every GitHub repository page, reproducible projects include a README file that describes the objective of the project, the data sources utilized, and a synopesis of the workflow applied. These can be as creative as you please, through the inclusion of images, hyperlinks, and stylized text.\r\nHere are some examples of various README files:\r\n** Image of README file example ** ** Image of README file example **\r\nLicenses\r\nGitHub provides the option to apply licensing to your repository. There are a collection of licenses available for selection in GitHub when you go to create a repository. Each contains their own specifications regarding the copyright use of the work it is applied to.\r\n** Image of license example **\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:35-08:00"
+      "last_modified": "2023-11-17T19:06:42-08:00"
     },
     {
       "path": "topic_3.html",
       "title": "Topic 3: File Structure & Data Management",
       "author": [],
       "contents": "\r\nnaming conventions, data formats, organizing files, using .gitignore.\r\n\r\n\r\n\r\nFigure 1: USGS image of Mississippi River.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:36-08:00"
+      "last_modified": "2023-11-17T19:06:43-08:00"
     },
     {
       "path": "topic_4.html",
       "title": "Topic 4: Project Collaboration",
       "author": [],
-      "contents": "\r\n\r\nContents\r\nAdding Collaborators\r\nBranches\r\nMerge Request\r\n\r\nAdding Collaborators\r\nOftentimes you’ll find yourself collaborating with a person, or even a team of people on a project. To optimize the project’s workflow, it would be most beneficial to add everyone to the project repository as collaborators.\r\n** Image of adding collaborators example **\r\nBranches\r\nTo optimize collaboration and avoid the risk of merge conflicts, branches are the best tool in your box.\r\nUsing the Terminal to make a branch:\r\nUsing GitHub to make a branch:\r\n** When working with others on a project, always git pull before you start a new working session **\r\nMerge Request\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:37-08:00"
+      "contents": "\r\n\r\nContents\r\nUsing the GitHub Organization\r\nBecoming a Member\r\nTransferring Your Repository into Organization\r\n\r\nAdding Repository Collaborators\r\nBranches\r\nMerge Request\r\n\r\nUsing the GitHub Organization\r\nBecoming a Member\r\nTo improve our workflow as a collective, all 2035 Initiative projects should be associated with our GitHub Organization. If you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email to be added.\r\nTransferring Your Repository into Organization\r\nWe request that you kindly transfer any 2035 Initiative related GitHub projects into our Organization, to optimize our project management and communication. You can transfer any repository you’ve uploaded to the organization using the following steps:\r\nOn GitHub.com, navigate to the main page of the repository.\r\nUnder your repository name, click Settings. If you cannot see the “Settings” tab, select the dropdown menu, then click Settings.\r\n\r\n\r\n\r\nAt the bottom of the page, in the “Danger Zone” section, click Transfer.\r\n\r\n\r\n\r\nRead the information about transferring a repository, then, under “New owner”, select our organization from the drop down menu.\r\nRead the warnings about potential loss of features depending on the new owner’s GitHub subscription.\r\nFollowing Type REPOSITORY NAME to confirm, type the name of the repository you’d like to transfer, then click I understand, transfer this repository.\r\nIf you published a GitHub Pages site in a private repository and added a custom domain, before transferring the repository, you may want to remove or update your DNS records to avoid the risk of a domain takeover. For more information, see “Managing a custom domain for your GitHub Pages site.”\r\nAdding Repository Collaborators\r\nOftentimes you’ll find yourself collaborating with a person, or even a team of people on a project. To optimize the project’s workflow, it would be most beneficial to add everyone to the project repository as collaborators.\r\n** Image of adding collaborators example **\r\nBranches\r\nTo optimize collaboration and avoid the risk of merge conflicts, branches are the best tool in your box.\r\nUsing the Terminal to make a branch:\r\nUsing GitHub to make a branch:\r\n** When working with others on a project, always git pull before you start a new working session **\r\nMerge Request\r\n\r\n\r\n\r\n",
+      "last_modified": "2023-11-17T19:06:44-08:00"
     },
     {
       "path": "topic_5.html",
       "title": "Topic 5: Reproducible Workflows",
       "author": [],
       "contents": "\r\nopen sourced coding, commenting, formatting.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:38-08:00"
+      "last_modified": "2023-11-17T19:06:45-08:00"
     },
     {
       "path": "topic_6.html",
       "title": "Topic 6: Troubleshooting Tips",
       "author": [],
       "contents": "\r\n\r\nContents\r\nTroubleshooting GitHub\r\nMerge Conflicts\r\nPushing Data that’s too Large\r\n\r\n\r\nTroubleshooting GitHub\r\nGitHub isn’t always the friendliest tool and there are a number of things that could go wrong when working with it. Below, we will explore tactics to apply when experiencing issues with your GitHub.\r\nMerge Conflicts\r\n** When working with others on a project, always git pull before you start a new working session **\r\nWhat to do when you’ve already committed without pushing\r\nPushing Data that’s too Large\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:39-08:00"
+      "last_modified": "2023-11-17T19:06:46-08:00"
     },
     {
       "path": "topic_7.html",
       "title": "Topic 7: Essential GitHub Commands",
       "author": [],
       "contents": "\r\n\r\nContents\r\nTerminal Commands\r\nSummary of Code Covered\r\n\r\n\r\nTerminal Commands\r\nSummary of Code Covered\r\nInsert a table here with all of the code chunks and descriptions - likely LaTeX\r\ngit status\r\ngit add .\r\ngit clone\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:40-08:00"
+      "last_modified": "2023-11-17T19:06:47-08:00"
     },
     {
       "path": "topic_8.html",
       "title": "Topic 8: Dropdown list from a navigation bar item",
       "author": [],
       "contents": "\r\n\r\nTO UPDATE THIS PAGE: Open and edit the topic_8.Rmd file, in the project root, to delete this placeholder text and customize with your own!\r\n\r\nIf you look at this template, you’ll notice that some navigation bar items go directly to a single page, while the Modules item takes you to a dropdown menu.\r\nTo create a dropdown menu of pages:\r\nCreate and save the pages as individual R Markdown documents as described here.\r\nOpen the _site.yml file. In the navbar section, create a menu with the pages as linked items using a structure like this:\r\n   - text: \"Dropdown menu\"\r\n      menu:\r\n        - text: \"First dropdown item\"\r\n          href: item_1.html\r\n        - text: \"Second dropdown item\"\r\n          href: item_2.html\r\nThe example above would only work if the new pages were created as item_1.Rmd and item_2.Rmd, so that when the site is built the rendered item_1.html and item_2.html files exist in the docs output directory.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:41-08:00"
+      "last_modified": "2023-11-17T19:06:48-08:00"
     },
     {
       "path": "topic_9.html",
       "title": "Topic 9: Changing site fonts",
       "author": [],
       "contents": "\r\n\r\nContents\r\nFonts are imported and specified in theme.css\r\nUse different fonts\r\n\r\n\r\nTO UPDATE THIS PAGE: Open and edit the topic_9.Rmd file, in the project root, to delete this placeholder text and customize with your own!\r\n\r\nYou are welcome to use any fonts you want on your website. Here, only using Google fonts is described (there are other methods for downloading fonts and adding, not included here).\r\nFonts are imported and specified in theme.css\r\nIn your Project in RStudio, open the theme.css file.\r\nNear the top, you’ll see some lines that look like this:\r\n/* Header font */\r\n@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');\r\n\r\n/* Body font */\r\n@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');\r\n\r\n/* Code font (Roboto Mono) */\r\n@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');\r\nThose are the import command to get 3 different Google fonts (Sanchez, Nunito Sans, and Roboto Mono). You can explore many different Google fonts here.\r\nUse different fonts\r\nFind a Google Font you like.\r\nClick on the font. To the right of the font example text, you should see an option to ‘+ Select this style’. Click the one(s) you want to select.\r\nThat will probably bring up a side menu. If you don’t see that side menu, you can see your selected styles at any time by clicking on the top-right menu icon that is a grid with 3 squares and a plus sign - hovering reveals this is to ‘View your selected families’. In the Use on the web section of the side menu that appears, select the radio button for @import. It’ll look weird like this (for the Zen Dots Google Font):\r\n    <style>\r\n    @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');\r\n    <\/style> \r\nCopy everything BETWEEN (but excluding) the ending <style> and <\/style>tags\r\nPaste the @import line you’ve copied into the top section of theme.css near the other fonts imported there. It is now available for use in your theme.\r\nUpdate the css with your new fonts, replacing the existing font names with the name you’ve imported. You might want to use a Find & Replace All if you want to make sure you’re updating a font everywhere it appears in the current theme.\r\nRepeat for as many different fonts as you want to update in your theme.\r\n\r\n\r\n\r\n",
-      "last_modified": "2023-11-17T16:31:42-08:00"
+      "last_modified": "2023-11-17T19:06:50-08:00"
     }
   ],
   "collections": []

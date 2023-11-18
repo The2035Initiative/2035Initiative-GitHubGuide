@@ -10,6 +10,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 [Data and scientific workflow management](https://brunj7.github.io/EDS-214-analytical-workflows/day_1.html)
 
+[Transferring a Repository Guide](https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository){.uri}
+
 ### More on `distill`
 
 -   RStudio's [`distill` website](https://rstudio.github.io/distill/)

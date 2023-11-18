@@ -1,5 +1,5 @@
-name: "meds-distill-template"
-title: "The 2035 Initiative: GitHub Guide"
+name: "github-guide-template"
+title: "The 2035 Initiative"
 description: |
   This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Initiative projects, along with helpful tips for getting started, and troubleshooting.
 output_dir: "docs"

@@ -10,20 +10,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 GitHub is an open sourced user-interface
 
-** image of what it looks like to make a repository **
-
+\*\* image of what it looks like to make a repository \*\*
 
 ### What is a .gitignore file?
 
 Documentation we do not want to be pushed and made publicly available in GitHub. When making a repository, you are prompted to answer whether or not you would like Git to make one for you automatically.
 
-** Image of selecting .gitignore file example **
+\*\* Image of selecting .gitignore file example \*\*
 
 ### What do we hide and how?
 
 Typically, data sets that are too large are unable to be stored by GitHub. To avoid a catastrophic event where GitHub is overloaded, it is common practice to put the data folder in the .gitignore file.
 
-** Image of .gitignore file example **
+\*\* Image of .gitignore file example \*\*
 
 ### README Files
 
@@ -31,10 +30,10 @@ At the bottom of every GitHub repository page, reproducible projects include a R
 
 Here are some examples of various README files:
 
-** Image of README file example ** ** Image of README file example **
+\*\* Image of README file example \*\* \*\* Image of README file example \*\*
 
 ### Licenses
 
 GitHub provides the option to apply licensing to your repository. There are a collection of licenses available for selection in GitHub when you go to create a repository. Each contains their own specifications regarding the copyright use of the work it is applied to.
 
-** Image of license example **
+\*\* Image of license example \*\*

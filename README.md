@@ -7,7 +7,7 @@ Demystify GitHub using a step-by-step overview of the platform on how to utilize
 -   Streamline project collaboration and communication.
 -   Troubleshooting skills - understand pathways to resolve issues that arise while using Git.
 
-[Check it Out!](https://saingersoll.github.io/2035Initiative-GitHubGuide/topic_1.html)
+[Check it Out!](https://the2035initiative.github.io/2035Initiative-GitHubGuide/)
 
 
 

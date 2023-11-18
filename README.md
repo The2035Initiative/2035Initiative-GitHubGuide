@@ -1,7 +1,7 @@
 ![image](https://github.com/The2035Initiative/2035Initiative-GitHubGuide/assets/141206781/27e32210-8ed8-411d-8a41-b8697d2469f8)
 # 2035 Initiative GitHub Guide
 
-Demystify GitHub using a step-by-step overview of the platform and how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced. The guide includes standard operating procedures for 2035 Projects, along with helpful tips for getting started, and troubleshooting.
+Demystify GitHub using a step-by-step overview of the platform on how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced. The guide includes standard operating procedures for 2035 Projects, along with helpful tips for getting started, and troubleshooting.
 
 -   Set a standard for file/data management.
 -   Streamline project collaboration and communication.

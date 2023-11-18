@@ -1,18 +1,13 @@
 ---
-title: "Topic 7: Remove tables of contents"
+title: "Topic 7: Essential GitHub Commands"
 ---
 
-<p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>topic_7.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
+## Terminal Commands (Summary of Code Covered)
 
-In this template, you'll notice that a Table of Contents is automatically created on pages with headings (starting with Level 2 headers as top-level items). 
+Insert a table here with all of the code chunks and descriptions - likely LaTeX
 
-To remove the auto-table of contents, open the `_site.yml` file. In the `output` section, change the `toc: ` and `toc_float: ` fields to `false`. 
+git status
 
-That section in `_site.yml` would then look like this, and the table of contents won't appear: 
+git add  .
 
-```
-output:
-  distill::distill_article:
-    toc: false
-    toc_float: false
-```
+git clone

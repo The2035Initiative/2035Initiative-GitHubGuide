@@ -1,6 +1,6 @@
 ---
-title: "2035 Initiative GitHub Guide"
-description: "This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Projects, along with helpful tips for getting started, and troubleshooting."
+title: "The 2035 Initiative GitHub Guide"
+description: "This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Initiative projects, along with helpful tips for getting started, and troubleshooting."
 site: distill::distill_website
 ---
 
@@ -22,92 +22,46 @@ knitr::opts_chunk$set(echo = FALSE)
 knitr::include_graphics("img/usgs_sat.jpeg")
 ```
 
-## Welcome to the MEDS distill template
+## Welcome to The 2035 GitHub Guide
 
-Welcome to the MEDS Course Website template! This template is made with [distill](https://rstudio.github.io/distill/), a package to build lightweight and robust websites in R. This method for creating a course website may make the most sense for MEDS teachers who are familiar with RStudio, R Markdown, git and GitHub (or who want to learn!). For those of you who do *not* want to create your website with distill in R, but still want a course website, check out [Course-in-a-Box](https://course-in-a-box.p2pu.org/) to create a site with no prior coding experience.
+This website has divvied up it's informational resources across 7 topics:
 
-For those wanting to take the distill/R websites path: this template acts as both a starting point for your site, and place to learn basics ways to customize it (different topics currently populate the different modules, which I expect teachers will replace with different weeks or lessons or topics as useful for your courses). 
+(1) **Joining GitHub**: creating an account, personal access tokens (PATs), and connecting with RStudio.
 
-### Some starting points:
+(2) **Creating a Repository**: step-by-step instructions, explaining README, licensing, and brief overview on .gitignore.
 
-- Follow along with the "Getting started with the MEDS distill template" (COMING SOON) instructions to set up your own distill website. Please reach out to Allison for help getting your website started, and submit problems and suggestions as issues [here](https://github.com/allisonhorst/meds-distill-template). 
+(3) **File Structure & Data Managemen**t: naming conventions, data formats, organizing files, using .gitignore.
 
-- The "Weekly materials" section of this template site can be updated with your course materials, but also in this template serves the additional purpose of showing you how to customize some things on your page.
+(4) **Project Collaboration**: adding collaborators, branches.
 
-- See the [EDS 212 Website](https://allisonhorst.github.io/EDS_212_essential-math/) for an example of what a customized live course site can look like using this template.
+(5) **Reproducible Workflows**: open sourced coding, commenting, formatting.
 
-<p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>index.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
+(6) **Troubleshooting Tips**: merge conflicts, overloading GitHub.
 
-## Course description
+(7) **Essential Git Commands**: a summary of all of the code covered throughout the topics.
 
-<p style="color: #ba5e00"><b>NOTE:</b> A lot of this home page information can be directly from your syllabus.</p>
+## Learning Objectives
 
-Add your course description here.
+To demystify GitHub using a step-by-step overview of the platform and how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.
 
-## Teaching team
+-   Set a standard for file/data management
+-   Streamline project collaboration and communication.
+-   Troubleshooting skills - understand pathways to resolve issues that arise while using Git
 
-**Instructor:** Mike Wazowski (wazowski\@monstersinc.org)
+## Teaching Team
 
--   **Office:** Closet 100
--   **Office hours:** Friday 9pm - 11pm
+**Jr. Specialist;** Emma Franzblau (emmafranzblau\@ucsb.edu)
 
-**Teaching assistant:** Boo (boo\@monstersinc.org)
+**Office hours:** Monday pm - pm
 
--   **Office:** Boo's Room
--   **Office hours:** Saturday 7am - 8am
+**Research Assistant:** Sofia Ingersoll (singersoll\@ucsb.edu)
 
-## Important links
+-   **Office hours:** Friday 9am - 10am
 
--   Link to full course syllabus (here is the [MEDS optional syllabus template](https://docs.google.com/document/d/1b2CElvwKk-haEA1axY5KvTEBbiSPUf7dIRUNX7gCI6w/edit?usp=sharing))
+## Important Links
 
--   Link to Code of Conduct (Bren / UCSB)
+-   Link to 2035 Initiative GItHub Organization, if you are not a member yet, please send Sofia Ingersoll or Emma Franzblau an email.
 
--   Link to course GitHub Classroom, other essential resources
+## Tentative Workshop Dates
 
-## Weekly course schedule
-
--   **Lectures:** MW 8am - 9:15am (Warehouse Room 1)
--   **Labs:** Th 10am - 12pm (Warehouse Room 2)
-
-## Learning objectives
-
-Condimentum id venenatis a condimentum. Ultricies mi quis hendrerit dolor magna eget est. Turpis egestas maecenas pharetra convallis. Sem nulla pharetra diam sit amet. Diam volutpat commodo sed egestas egestas fringilla. Mauris in aliquam sem fringilla ut morbi tincidunt augue interdum. Ornare massa eget egestas purus viverra accumsan in.
-
--   Vulputate eu scelerisque felis imperdiet proin.
--   Euismod nisi porta lorem mollis aliquam.
--   Urna molestie at elementum eu facilisis sed odio morbi quis.
--   Convallis a cras semper auctor neque. Semper quis lectus nulla at volutpat diam ut venenatis tellus.
-
-## Course requirements
-
-### Computing
-
--   Minimum device requirements
-
--   Software requirements
-
--   Account requirements
-
-### Textbook
-
--   Required textbook / information
-
-### Other requirements
-
--   Anything else
--   Important for students to know
-
-## Tentative topics
-
-| Week | Lecture topics | Lab topics |
-|------|----------------|------------|
-| 1    | Topics         | Topics     |
-| 2    | Topics         | Topics     |
-| 3    | Topics         | Topics     |
-| 4    | Topics         | Topics     |
-| 5    | Topics         | Topics     |
-| 6    | Topics         | Topics     |
-| 7    | Topics         | Topics     |
-| 8    | Topics         | Topics     |
-| 9    | Topics         | Topics     |
-| 10   | Topics         | Topics     |
+-   TBA

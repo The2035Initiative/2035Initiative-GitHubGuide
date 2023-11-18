@@ -1,7 +1,7 @@
 name: "meds-distill-template"
-title: "EDS 123"
+title: "The 2035 Initiative: GitHub Guide"
 description: |
-  MEDS Courses distill template
+  This is the official 2035 Initiative GitHub Guide. The guide includes standard operating procedures for 2035 Initiative projects, along with helpful tips for getting started, and troubleshooting.
 output_dir: "docs"
 navbar:
   right:
@@ -9,28 +9,20 @@ navbar:
       href: index.html
     - text: "Topics"
       menu:
-        - text: "Topic 1: Add a new site page"
+        - text: "Topic 1: Getting Started with GitHub"
           href: topic_1.html
-        - text: "Topic 2: Update site title & subtitle"
+        - text: "Topic 2: Creating a Repository"
           href: topic_2.html
-        - text: "Topic 3: Add images"
+        - text: "Topic 3: File Structure & Data Management"
           href: topic_3.html
-        - text: "Topic 4: Change the theme"
+        - text: "Topic 4: Project Collaboration"
           href: topic_4.html
-        - text: "Topic 5: Basic formatting"
+        - text: "Topic 5: Reproducible Workflows"
           href: topic_5.html
-        - text: "Topic 6: Internal & external links"
+        - text: "Topic 6: Troubleshooting Tips"
           href: topic_6.html
-        - text: "Topic 7: Remove tables of contents"
+        - text: "Topic 7: Essential GitHub Commands"
           href: topic_7.html
-        - text: "Topic 8: Add a dropdown menu from navigation bar item"
-          href: topic_8.html
-        - text: "Topic 9: Change site fonts"
-          href: topic_9.html
-        - text: "Topic 10: Add a table"
-          href: topic_10.html
-    - text: "Assignments"
-      href: assignments.html
     - text: "Resources"
       href: resources.html
     - icon: fab fa-github

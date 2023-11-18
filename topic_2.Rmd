@@ -1,17 +1,41 @@
 ---
-title: "Topic 2: Update site title and subtitle"
+title: "Topic 2: Creating a Repository"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-<p style="color: #ba5e00"><b>TO UPDATE THIS PAGE:</b> Open and edit the <b>topic_2.Rmd</b> file, in the project root, to delete this placeholder text and customize with your own!</p>
+## Creating a Repository
 
-One of the first things you'll want to do is update your site title, subtitle, and the short link on the right side of the navbar. 
+GitHub is an open sourced user-interface
 
-Here's how:
+** image of what it looks like to make a repository **
 
-- The main title and subtitle for the home page live in the YAML of the `index.Rmd` file. Open it in your project, update the `title` and `description` fields in the YAML, save, then build your site (In RStudio: Build > Build Website) to see the updated title.
+.gitignore Files
 
-- The label for the short link in the upper right of the page (right side of the navigation bar) is specified in the `_site.yml` page. Open the `_site.yml` file in your project, update the Title field, save, and rebuild the site to see your update.
+### What is a .gitignore file?
+
+Documentation we do not want to be pushed and made publicly available in GitHub. When making a repository, you are prompted to answer whether or not you would like Git to make one for you automatically.
+
+** Image of selecting .gitignore file example **
+
+### What Do We Hide and How?
+
+Typically, data sets that are too large are unable to be stored by GitHub. To avoid a catastrophic event where GitHub is overloaded, it is common practice to put the data folder in the .gitignore file.
+
+** Image of .gitignore file example **
+
+### README Files
+
+At the bottom of every GitHub repository page, reproducible projects include a README file that describes the objective of the project, the data sources utilized, and a synopesis of the workflow applied. These can be as creative as you please, through the inclusion of images, hyperlinks, and stylized text.
+
+Here are some examples of various README files:
+
+** Image of README file example ** ** Image of README file example **
+
+### Licenses
+
+GitHub provides the option to apply licensing to your repository. There are a collection of licenses available for selection in GitHub when you go to create a repository. Each contains their own specifications regarding the copyright use of the work it is applied to.
+
+** Image of license example **

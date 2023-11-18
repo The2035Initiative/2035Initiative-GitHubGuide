@@ -3,3 +3,13 @@
 .Rdata
 .httr-oauth
 .DS_Store
+.add-remove-pg.qmd
+.update-site-titles.qmd
+.adding-images.qmd
+.changing-theme.qmd
+.basic-formatting.qmd
+.interal-external-links.qmd
+.remove-table-of-contents.qmd
+.topic_8.Rmd
+.topic_9.Rmd
+.topic_10.Rmd

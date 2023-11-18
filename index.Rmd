@@ -44,15 +44,15 @@ This website has divvied up it's informational resources across 7 topics:
 
 To demystify GitHub using a step-by-step overview of the platform and how to utilize this powerful tool. These instructions for project management tactics and standard operating procedures (SOP) are to be applied to all 2035 Initiative projects. These SOP ensure that all 2035 Initiative projects are reproducible, well documented, and open sourced.
 
--   Set a standard for file/data management
+-   Set a standard for file/data management.
 -   Streamline project collaboration and communication.
--   Troubleshooting skills - understand pathways to resolve issues that arise while using Git
+-   Troubleshooting skills - understand pathways to resolve issues that arise while using Git.
 
 ## Teaching Team
 
-**Jr. Specialist;** Emma Franzblau (emmafranzblau\@ucsb.edu)
+**Jr. Specialist:** Emma Franzblau (emmafranzblau\@ucsb.edu)
 
-**Office hours:** Monday pm - pm
+**Office hours:** TBA
 
 **Research Assistant:** Sofia Ingersoll (singersoll\@ucsb.edu)
 

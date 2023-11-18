@@ -6,13 +6,11 @@ title: "Topic 1: Getting Started with GitHub"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**NOTE:** There are 10 toy Topic sections here, expecting that some teachers may want to have one page per week (for a 10 week course). You are encouraged to structure your course **however works best for your class**. All of your course information could be on a single page, or you might have a different number of topics, or organize weekly, or any other organization that works for you.
-
 ## Creating an Account
 
 If you don't already have a GitHub account, go to [GitHub](https://github.com/join) and create one. Here are helpful considerations for choosing a username: [happygitwithr.com/github-acct.html](https://happygitwithr.com/github-acct.html)
 
-### Connecting GitHub to RStudio
+## Connecting GitHub to RStudio
 
 You should already have git on your device, but let's check for it anyway.
 

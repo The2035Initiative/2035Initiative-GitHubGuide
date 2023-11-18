@@ -2,7 +2,9 @@
 title: "Topic 7: Essential GitHub Commands"
 ---
 
-## Terminal Commands (Summary of Code Covered)
+## Terminal Commands 
+
+### Summary of Code Covered
 
 Insert a table here with all of the code chunks and descriptions - likely LaTeX
 

@@ -12,7 +12,6 @@ GitHub is an open sourced user-interface
 
 ** image of what it looks like to make a repository **
 
-.gitignore Files
 
 ### What is a .gitignore file?
 
@@ -20,7 +19,7 @@ Documentation we do not want to be pushed and made publicly available in GitHub.
 
 ** Image of selecting .gitignore file example **
 
-### What Do We Hide and How?
+### What do we hide and how?
 
 Typically, data sets that are too large are unable to be stored by GitHub. To avoid a catastrophic event where GitHub is overloaded, it is common practice to put the data folder in the .gitignore file.
 

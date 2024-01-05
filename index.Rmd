@@ -30,11 +30,11 @@ This website has divvied up it's informational resources across 7 topics:
 
 (2) **Creating a Repository**: step-by-step instructions, explaining README, licensing, and brief overview on .gitignore.
 
-(3) **File Structure & Data Managemen**t: naming conventions, data formats, organizing files, using .gitignore.
+(3) **SOP Project Structure & Data Management**: naming conventions, data formatting, organizing files, using .gitignore.
 
-(4) **Project Collaboration**: joining our GitHub Organization, adding collaborators, branches.
+(4) **Project Collaboration**: what is GitHub & how it works, joining our GitHub Organization, adding collaborators, branches.
 
-(5) **Reproducible Workflows**: open sourced coding, commenting, formatting.
+(5) **Reproducible Workflows**: open sourced coding SOP, tidy data, commenting, formatting.
 
 (6) **Troubleshooting Tips**: merge conflicts, overloading GitHub.
 

@@ -4,3 +4,25 @@ title: "Topic 5: Reproducible Workflows"
 
 
 open sourced coding, commenting, formatting.
+
+### Tidy Data & Clean Code
+
+- We want our work to be reproducible so commenting frequently throughout our code in an easy to read, organized manner. 
+
+- Avoid writing file paths specific to your local device
+
+- Simplify your workflow wherever possible. In circumstances of task repetition, write a function to streamline your project! 
+
+- Quarto markdown files are a wonderful tool for quick commenting or including detailed information between code chunks. Rmd files are also very easily converted into html files for web applications, using the `Knit` function.
+
+- Including a detailed datasheet 
+
+
+
+#### Establishing an Environment
+
+- Libraries
+
+- Package dependencies
+
+In the world of open sourced coding, packages are constantly being updated and new versions are being released. This can lead to some difficulties when 

@@ -1,15 +1,75 @@
 ---
-title: "Topic 3: File Structure & Data Management"
+title: "Topic 3: SOP Project Structure & Data Management"
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-naming conventions, data formats, organizing files, using .gitignore.
+## Project Structure SOP
 
-```{r, echo = FALSE, out.width = "80%", fig.cap = "USGS image of Mississippi River."}
+Below are the standard operating procedures for organizing your project repository structure. These guidelines will optimize your workflow and allow for greater reproducibility of your open sourced code.
 
-knitr::include_graphics("img/usgs_sat.jpeg")
+### README
+
+Open sourced coding projects need a descriptive `README` for their
+respective repository. The `README` can contain images related to the projected, such as The 2035 Initiative logo, the project deliverable, or topical images related to the subject.
+
+It needs to contain a brief overview on the project, its objective, as well as, some background on the data utilized. In-text citations are highly recommended, GitHub does a very nice job combining these
+citations into a footnote.
+
+```{r, include = FALSE, echo = FALSE, out.width = "80%", fig.cap = "README footnote example."}
+
+#knitr::include_graphics("img/README.jpeg")
 
 ```
+
+## Data Management
+
+### Naming Conventions
+
+Projects, folders, data, and documents should be labeled clearly and intuitively. Abbreviations utilized throughout your project belong in a detailed data sheet. The same goes for objects within our code, but further discussion on this can be found in Topic 5: Reproducible Workflows.
+
+### Organizing Files
+
+Folders are a quick way to keep your projects organized categorize
+documents. When organizing your project it's helpful to imagine your files in a tree-like structure:
+
+```
+Project_Name 
+│ README.md 
+│ Rmd/Project files 
+| .gitignore 
+│
+└───data 
+  | | sample_data.shp 
+  | | sample_data.gpkg 
+  |
+  └───sample_data.gdb 
+  | | sample data gdb files 
+  │
+  └───sample_subset_folder 
+  │ | sub-data_2008.tif
+  │ | sub-data_2009.tif 
+  │ | sub-data_2010.tif 
+  │ | sub-data_2011.tif
+```
+
+#### Using .gitignore.
+
+For sensitive documents or data files that are too large (100 MiB or greater) to be pushed to GitHub, they can be hidden using the `.gitignore` file. Within the `.gitignore` file, you can specify documents to be excluded from your commit to GitHub. It is recommended to upload large files into a Google Drive and provide public access via a link in your README.
+    
+  - A general note: GitHub limits the size of your repository and
+  strongly recommends they remain less than 1 GB and no greater
+  than 5 GB. 
+
+### Managing Repository Size
+
+To monitor your repository size and prevent/mitigate any potential
+issues that may arise regarding over-sized files, refer to the
+[github/git-sizer](https://github.com/github/git-sizer) repository. 
+
+This resource provides insight on how to use `git-sizer` to assess the size of files within your local repository before committing them.

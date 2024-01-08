@@ -1,6 +1,7 @@
 ---
 title: "Topic 6: Troubleshooting Tips"
 ---
+
 ## Troubleshooting GitHub
 
 GitHub requires a specific order of operations to function the properly and there are a number of things that could go wrong when working out-of-order. Below, we will explore tactics to apply when experiencing issues with your GitHub.
@@ -9,110 +10,120 @@ GitHub requires a specific order of operations to function the properly and ther
 
 knitr::include_graphics("img/github-overview.png")
 ```
-When it comes to troubleshooting, it's always helpful to review the channels and necessary commands to navigate GitHub. GitHub is a tool to connect your local repository (on your device) to your remote repository (online via GitHub). 
+
+When it comes to troubleshooting, it's always helpful to review the channels and necessary commands to navigate GitHub. GitHub is a tool to connect your local repository (on your device) to your remote repository (online via GitHub).
 
 ### Avoiding Accidental Commits
 
 The following are a few helpful tips and tricks to simplifying your GitHub usage:
 
-- Check out visual programs such as [Github Desktop](https://desktop.github.com) and [gitk](https://git-scm.com/docs/gitk) to assist with staging commits.
-- Practice caution when staging changes for committing, include the desired files using `git add filename` and remove unwanted staged changes with `git rm filename`. Avoid the catch-all-commands `$ git add .` or `git commit -a`. 
-- `git add --interactive` is a command that allows you to individually review and stage changes within each file.
-- `git diff --cached` allows you to review the changes you've staged for commit, these changes will be included in your `git commit`.
+-   Check out visual programs such as [Github Desktop](https://desktop.github.com) and [gitk](https://git-scm.com/docs/gitk) to assist with staging commits.
+-   Practice caution when staging changes for committing, include the desired files using `git add filename` and remove unwanted staged changes with `git rm filename`. Avoid the catch-all-commands `$ git add .` or `git commit -a`.
+-   `git add --interactive` is a command that allows you to individually review and stage changes within each file.
+-   `git diff --cached` allows you to review the changes you've staged for commit, these changes will be included in your `git commit`.
 
 ### Merge Conflicts
 
 One of the most common issues that arises while collaborating with GitHub are merge conflicts. This is typically because the local repository you're working on does not match the most recent version uploaded to the remote repository.
 
- **When working with others on a project, always use `git pull` in your terminal before you start a new working session**
+**When working with others on a project, always use `git pull` in your terminal before you start a new working session**
 
-```
+```         
 $ git pull
 ```
+
 #### What to do when you've already staged changes without pulling the most recent version of the project from GitHub
 
 Sometimes, you may make the mistake of staging changes you've made to commit without pulling the latest version from GitHub. A way to quickly hide or 'stash' your staged changes is to use the command:
 
-```
+```         
 $ git stash
 ```
+
 Once your staged commit is stashed, you should be able to retrieve the latest version of your remote repository using:
 
-```
+```         
 $ git pull
 ```
+
 Then, proceed as usual and upload your previously stashed commit using:
-```
+
+```         
 $ git push
 ```
 
-#### The Beauty of Branches 
+#### The Beauty of Branches
 
 A good practice to mitigate conflicts like the one described above is by working in local branches. Branches provide a new avenue to work locally and reduce the risk of experiencing a merge conflict. To establish a working branch registered locally and remotely use the following commands:
 
-```
+```         
 $ git checkout -B name-of-branch
 $ git checkout -origin push
 ```
+
 To exit the branch once your finished and delete it locally, use the following commands:
-```
+
+```         
 $ git checkout main
 $ git 
 ```
 
-*insert Examples of branches on GitHub & how it looks to converge branch commits to remote repository.* 
+*insert Examples of branches on GitHub & how it looks to converge branch commits to remote repository.*
 
 ### Pushing Data that's too Large
 
-https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
- 
+<https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github>
 
 ### Removing Files from your Repository's History
 
-Sometimes you may forget to add certain files to your `.gitignore` before pushing and may accidentally commit sensitive or unwanted files to your remote repository on GitHub. 
+Sometimes you may forget to add certain files to your `.gitignore` before pushing and may accidentally commit sensitive or unwanted files to your remote repository on GitHub.
 
 #### To remove a file added in the most recent unpushed commit
 
-1) In the terminal, orient yourself so that your current working directory matches your project's local repository. To check where you're working, you may use:
+1)  In the terminal, orient yourself so that your current working directory matches your project's local repository. To check where you're working, you may use:
 
-```
+```         
 $ pwd
 ```
-2) Use the following command to stage the unwanted file for removal from the unpushed commit:
 
-```
+2)  Use the following command to stage the unwanted file for removal from the unpushed commit:
+
+```         
 $ git rm --cached UNWANTED_FILE
 ```
 
-3) To update the previous commit with the new changes made use the following code:
+3)  To update the previous commit with the new changes made use the following code:
 
-```
+```         
 $ git commit --amend --CHEAD
 ```
 
-4) Finally, push your updated staged commit to your remote repository on GitHub:
+4)  Finally, push your updated staged commit to your remote repository on GitHub:
 
-```
+```         
 $ git push
 ```
+
 #### To remove a file added in a previous commit
 
 If you've made the mistake of pushing some unwanted or sensitive information in an earlier commit, worry not! The [BFG Repo-Cleaner](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository) or `git filter-repo` command is a quick way to remove unwated files without changing your most recent commit:
 
-```
+```         
 $ bfg --delete-files YOUR-UNWANTED-FILE
 ```
 
 Another alternative to remove sensitive information is to replace all txt listed in the file of interest in your remote history:
 
-```
+```         
 $ bfg --replace-text sensitivefile.txt
 ```
+
 These changes are to then be force pushed to GitHub to rewrite the existing history:
 
-```
+```         
 $ git push --force
 ```
+
 Click here for further information on how to use the [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/).
 
 #### Final Steps to Removing Sensitive Files from GitHub
@@ -121,22 +132,18 @@ Upon completing either of the two steps described above without unintended side 
 
 **GitHub Support will only aid in removing sensitive data in cases that are determined to be at risk regardless of rotating affected credentials**
 
-1) Contact the [GitHub Support Portal](https://support.github.com) with the name of your repository and/or a link to the commit you would like removed. Ask for the removal of cached views and references to the sensitive data in pull requests on GitHub.
+1)  Contact the [GitHub Support Portal](https://support.github.com) with the name of your repository and/or a link to the commit you would like removed. Ask for the removal of cached views and references to the sensitive data in pull requests on GitHub.
 
-2) Request each project collaborator to rebase, **not merge**, any branches created off of your old repository history. 
+2)  Request each project collaborator to rebase, **not merge**, any branches created off of your old repository history.
 
 **Failure to do so could lead to a single merge commit that would reintroduce the unwanted history that you just went to the trouble of removing**
 
-3) Using Git 1.8.5 or newer force all objects in your local repository to be un-referenced and collected for the trash bin with the following commands:
+3)  Using Git 1.8.5 or newer force all objects in your local repository to be un-referenced and collected for the trash bin with the following commands:
 
-```
+```         
 $ git for-each-ref --format="delete %(refname)" refs/original | git update-ref --stdin
 $ git reflog expire --expire=now --all
 $ git gc --prune=now
 ```
 
-
-Citations: Work in progress
-https://allisonhorst.com/git-github
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
-
+Citations: Work in progress <https://allisonhorst.com/git-github> <https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository>

@@ -1,13 +1,8 @@
 ---
 title: "Topic 5: Reproducible Workflows"
 ---
-
-
-open sourced coding, commenting, formatting.
-
-### Tidy Data & Clean Code
-
-- We want our work to be reproducible so commenting frequently throughout our code in an easy to read, organized manner. 
+### Quick Tips
+- We want our work to be reproducible so commenting frequently throughout our code in an easy to read, organized manner.
 
 - Avoid writing file paths specific to your local device
 
@@ -17,7 +12,29 @@ open sourced coding, commenting, formatting.
 
 - Including a detailed datasheet 
 
+### Tidy Data & Clean Code
 
+When it comes to cleaning raw data, it's best to follow the tidy data format ("long" format). The [Tidy Data Guide](https://r4ds.had.co.nz/tidy-data.html) by Garrett Grolemund & Hadley Wickham provides insight on how to neatly organize data sets in tidy data format. Three key concepts are outlined in their figure below.
+
+**Note: It's important to always keep a copy of your raw, unprocessed data**
+
+```{r, echo = FALSE, out.width = "80%", fig.cap = "[Tidy Data Guide](https://r4ds.had.co.nz/tidy-data.html) by Garrett Grolemund & Hadley Wickham"} 
+
+knitr::include_graphics("img/tidy-1.png")
+```
+- Every variable corresponds to its own clearly labeled column, containing units when applicable.
+- Every observation corresponds to its own row.
+- Every value is contained in its own cell.
+
+#### R & Python Resources
+
+- R: chapter on [Tidy Data](https://r4ds.had.co.nz/tidy-data.html) from the book [R for Data Science](https://r4ds.had.co.nz/) by Garrett Grolemund and Hadley Wickham.
+
+- Python: blogpost by Jean-Nicholas Hould titled [Tidy Data in Python](http://www.jeannicholashould.com/tidy-data-in-python.html).
+
+### Metadata
+
+Datasheets for data sets | txt files labeled as `_readme_datafilename`
 
 #### Establishing an Environment
 
